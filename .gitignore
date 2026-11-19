@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+netlify/functions/generated-knowledge.mjs
+node_modules/
+dist/
+
+# Local Netlify folder
+.netlify
