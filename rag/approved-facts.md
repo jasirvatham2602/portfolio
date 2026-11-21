@@ -10,7 +10,7 @@ These are source notes, not finished interview answers. Use them to ground assis
 
 ## Experience and leadership
 
-- Wyzant Tutor, April 2026–present: 40+ hours, 13+ students, Calculus I–III, College Physics, Chess, and Computer Science; 10+ five-star reviews and repeat clients.
+- Wyzant Tutor, April 2026–present: 55+ hours, 15+ students, Calculus I–III, College Physics, Chess, and Computer Science; 15+ five-star reviews and repeat clients.
 - Athens High School club leadership, August 2022–May 2026: taught programming to 100+ students in Python, Java, and JavaScript; Computer Club President, Chess Club Co-President, Math and Physics Club Vice President.
 
 ## QXAI Research Platform

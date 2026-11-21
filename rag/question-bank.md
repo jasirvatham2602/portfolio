@@ -64,7 +64,7 @@ Use these prompts to collect first-person answers for a future retrieval-augment
 43. Why did you choose Computer Science at the University of Michigan?
 44. How do your current or planned courses connect to your project work?
 45. How do you adapt a tutoring explanation for a student who is stuck?
-46. What did tutoring 13+ students teach you about communication and patience?
+46. What did tutoring 15+ students teach you about communication and patience?
 47. How did you lead programming instruction for 100+ students at Athens High School?
 
 ## Reflection and interview practice

@@ -309,12 +309,31 @@ h3 { margin-bottom: 9px; font-size: 21px; line-height: 1.25; font-weight: 800; }
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
 @media print {
+  @page { size: letter; margin: 0.32in 0.42in; }
   .site-header, .site-footer, .chat-launcher, .chat-drawer, .resume-toolbar, .assistant-card, .button-row { display: none !important; }
-  body { background: white; font-size: 10pt; }
-  .shell { width: 100%; }
-  .section, .page-hero { padding: 12px 0; }
-  .resume-sheet { border: 0; box-shadow: none; padding: 0; }
-  .resume-section { break-inside: avoid; }
+  html, body { width: 100%; background: #fff !important; color: #172033; font: 8.25pt/1.22 Arial, Helvetica, sans-serif; }
+  body { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  main { min-height: 0; }
+  .page-hero { display: none !important; }
+  .shell { width: 100%; max-width: none; margin: 0; }
+  .section { padding: 0; }
+  .resume-layout { display: block; }
+  .resume-sheet { padding: 0; border: 0; border-radius: 0; box-shadow: none; }
+  .resume-name { align-items: end; padding-bottom: 5pt; border-bottom: 1.25pt solid #172033; }
+  .resume-name h2 { margin: 0; color: #111827; font-size: 17pt; letter-spacing: -.04em; }
+  .resume-name p { margin-top: 1pt; color: #4b5563; font-size: 7.5pt; }
+  .resume-name .text-link { color: #172033; font-size: 7.5pt; }
+  .resume-section { padding: 5pt 0 1pt; border-bottom: .5pt solid #d6dbe3; }
+  .resume-section h3 { gap: 4pt; margin: 0 0 3pt; color: #172033; font-size: 9pt; }
+  .resume-section h3::before { width: 4pt; height: 4pt; background: #172033; }
+  .resume-entry { margin-bottom: 3pt; }
+  .resume-entry-head { gap: 8pt; }
+  .resume-entry h4 { color: #111827; font: 700 8pt/1.2 Arial, Helvetica, sans-serif; }
+  .resume-entry time { color: #4b5563; font-size: 7pt; }
+  .resume-entry p { margin-top: 1pt; color: #374151; font-size: 7.2pt; line-height: 1.2; }
+  .skill-cloud { gap: 3pt; }
+  .skill-pill { padding: 1pt 4pt; border: .5pt solid #cbd1db; border-radius: 3pt; color: #243044; background: #fff !important; font-size: 6.8pt; }
+  .resume-section h3, .resume-entry-head { break-after: avoid; }
   .resume-entry { break-inside: avoid; }
-  a { text-decoration: none; }
+  a { color: inherit; text-decoration: none; }
 }
