@@ -30,6 +30,14 @@ These are Joshua's first-person statements for portfolio interview practice. The
 
 **Polished response:** I’m most proud of my QXAI project, which took over a year to build. I designed a variational quantum circuit as part of a quantum–classical hybrid architecture and connected a frontend to a backend so users can explore predictions from classical and hybrid models with their corresponding saliency maps. I also built a clinician-facing panel for reviewing submitted cases and an LLM-based project guide that explains how the platform was built. The models are research prototypes, not clinically validated diagnostic tools.
 
+### Tell us about a project you're proud of. What was it, what made it hard, and what would you do differently now?
+
+**Original response:** One project I'm proud of is my Quantum Machine Learning (QML) model that classifies Alzheimer's and Parkinson's with over 86% accuracy. It utilized a Variational Quantum Circuit (VQC) connected with a classical Neural Network, creating a Quantum-Classical Hybrid Architecture. I created a full stack website, enabling users from around the world to receive diagnoses from the model; I also created an LLM chatbot on the website using RAGs to answer user's technical questions on project. The difficult part about this project was implementing a Quantum Saliency Map-- an explainable AI technique to elucidate influential regions on the MRI scan on why the QML model made its diagnoses. What made it difficult was its unique architecture, making the required mathematics more complex and difficult to program. One thing I would do differently would be changing the input type of the model; the model currently takes 2d axial view MRI scans, omitting millions of extra data that can potential improve accuracy of diagnoses. Going back, I would change the model to take input from 3d MRI scans instead, giving it access to more information, thereby improving accuracy.
+
+**Polished response:** One project I’m proud of is QXAI, a quantum machine-learning research platform that compares classical and hybrid models for three-class MRI image classification: Alzheimer’s disease, Parkinson’s disease, and control. The hybrid model connects a classical neural network to a variational quantum circuit and achieved 86.24% accuracy on a locked 407-image test set. I also built a full-stack website with model comparisons, saliency visualizations, and a retrieval-augmented chatbot that answers technical questions about the project. The models produce research predictions, not medical diagnoses.
+
+The hardest part for me was implementing quantum saliency maps. The hybrid architecture was unfamiliar, and adapting an explainability approach to it made the math and programming especially challenging. If I revisited the project, I’d explore using 3D MRI volumes instead of individual 2D axial slices to retain more spatial context. That would require suitable 3D data and a redesigned model and evaluation, and I’d test whether it improves results rather than assume it would.
+
 ### What makes you excited about quantum computing?
 
 **Original response:** Quantum Computing fascinates me in the way it works completely different than building classical counterparts. For example, creating a key with the E91 Quantum Key Distribution algorithm in my QuantumVault project fascinated me because it used several rounds of the Bell State quantum circuit. Being vastly different that classical algorithms, it stretches my mind to conceptually understand how and why they work.
@@ -42,6 +50,4 @@ Joshua has not yet supplied personal answers for these prompts. Ask him rather t
 
 - What do you want to learn or accomplish in your next role?
 - What kind of team or work environment helps you do your best work?
-- Tell me about a difficult problem you solved.
 - Describe a time you received feedback that changed your approach.
-- What technical challenge took you the most effort to solve?
